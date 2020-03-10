@@ -173,6 +173,9 @@ export default {
     },
     commit(projectname, samplename) {
         return API.post('projects/' + projectname + '/sample/' + samplename + '/commit');
+    },
+    pull(projectname, samplename) {
+        return API.get('projects/' + projectname + '/sample/' + samplename + '/pull');
     }
 
 }
