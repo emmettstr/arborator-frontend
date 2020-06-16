@@ -1,6 +1,6 @@
 export default {
   failed: 'Action failed',
-  success: 'Action was successful',
+  success: 'Action successful',
   oops: 'Something went wrong: ',
   error403: 'Hey you! You do not have the permissions for this action. Please contact the administrator.',
   error401: 'Hey you! Please log in to do any further actions of that type.',
@@ -22,42 +22,42 @@ export default {
     slogan: 'Treebank Annotation for Human Beings',
     descriptionCard: {
       title: 'A collaborative annotation tool for treebank development',
-      subtitle: "An easy to use graphic annotation interface makes it annotation the best part of a linguist's day.",
+      subtitle: "With an easy-to-use graphic interface, this isn't your daddy's annotation tool.",
       content: [
-        'Just drag a word on the other to make a dependency relation. Just click on a word to change its features. Just choose the words to make them tokens. The dependency set, the tagset, and the feature set are fully configurable. We provide ready-made configurations for',
+        'Just drag a word onto the other to make a dependency relation. Change its features in a single click. Just select words to make them tokens. The dependency set, tagset, and feature set are fully configurable. We provide ready-made configurations for',
         'and'
       ],
       tooltipSud: 'SUD: The surface-syntactic, distribution-based version of Universal Dependencies',
-      tooltipUd: 'Universal Dependencies: The amazing collaborative treebank annotation project providing 150 treebanks in 90 languages'
+      tooltipUd: 'Universal Dependencies: The one-of-a-kind collaborative treebank annotation project offering 150 treebanks in 90 languages'
     },
     grewCard: {
       title: 'Search with a powerful graph grammar',
       subtitle: 'Modify the search results directly in the Web interface',
       content: [
-        "A good treebank is a lot about curation, about finding the problems and correcting them coherently. With Arborator-Grew, there is no more back and forth between different websites or twisting your mind with complex greps in CoNLL files. Well, you got to learn the",
-        "syntax, but that's a breeze with all the great examples and tutorials provided."
+        "A good treebank all about proper maintenance; it's about finding problems and correcting them coherently. With Arborator-Grew, gone are the days of constant back-and-forth between different websites or manual tinkering with CoNLL files. Just learn the",
+        "syntax and you're ready to go. And with all the examples and tutorials provided, that's a breeze too."
       ],
       tooltipGrew: 'The grew graph grammar'
     },
     collaborativeCard: {
-      title: 'Together with others you can build beautiful treebanks',
-      subtitle: 'Social login makes Arborator-Grew a hazzle free tool',
+      title: 'Build beautiful treebanks collaboratively',
+      subtitle: 'Social login makes Arborator-Grew a hassle-free tool',
       content: [
-        'You control who accesses your annotation projetct, and no annotator can destroy other trees than their owns.',
+        'You control who accesses your annotation project, and no annotator can destroy anyone else\'s trees.',
         'Push the CoNLL data onto your GitHub project and share your beautiful trees from there.',
         'Try it all out on our'
       ],
       playgroundBtn: 'Playground'
     },
     sourceCard: {
-      title: 'Source code and access to this Web page are completely free',
-      subtitle: 'as in free beer and as in in free speech',
+      title: 'Access to this web page and its source code is completely free',
+      subtitle: 'open to all and free of charge',
       content: [
         'Head over to', 
-        'to have a look and grab the code.', 
-        'Get involved give us feedback on the', 
+        'to take a look at the code.', 
+        'Want to get involved? Send your feedback on the', 
         'issue page of this Arborator front-end', 
-        'A guide to install Arborator-Grew on your own server will be provided here shortly...'
+        'A guide to install Arborator-Grew on your own server is coming soon...'
       ],
       tooltipGit: 'our GitHub page'
     },
@@ -65,24 +65,24 @@ export default {
       title: 'Our story',
       subtitle: 'Arborator-Grew combines the features of two preexisting tools: Arborator and Grew.',
       content: [
-        "Arborator is a widely used collaborative graphical online dependency treebank annotation tool. Grew is a tool for graph querying and rewriting specialized in structures needed in NLP, i.e. syntactic and semantic dependency trees and graphs. Grew also has an online version,", 
-        ", where all Universal Dependencies treebanks in their classical, deep and surface-syntactic flavors can be queried. Arborator-Grew is a complete redevelopment and modernization of Arborator, replacing its own internal database storage by a new Grew API, which adds a powerful query tool to Arborator's existing treebank creation and correction features. This includes complex access control for parallel expert and crowd-sourced annotation, tree comparison visualization, and various exercise modes for teaching and training of annotators. Arborator-Grew opens up new paths of collectively creating, updating, maintaining, and curating syntactic treebanks and semantic graph banks."
+        "Arborator is a widely used collaborative graphical online dependency treebank annotation tool. Grew is a tool for graph querying and rewriting which specializes in structures needed in NLP, i.e. syntactic and semantic dependency trees and graphs. Grew also has an online version,", 
+        ", where all Universal Dependencies treebanks in their classical, deep and surface-syntactic flavors can be queried. Arborator-Grew is a complete overhaul of Arborator, replacing its own internal database storage with a new Grew API, which adds a powerful query tool to Arborator's existing treebank creation and correction features. This includes complex access control for parallel expert and crowd-sourced annotation, tree comparison visualization, and various exercise modes for teaching and training annotators. Arborator-Grew opens up new pathways for collectively creating, updating, maintaining, and curating syntactic treebanks and semantic graph banks."
       ]
     },
     citeCard: {
       title: 'Cite us if you use this',
-      subtitle: 'And good things will happen'
+      subtitle: 'And good things will happen.'
     },
     toolsCard: {
       title: 'Some other tools',
-      subtitle: 'in the Arborator series',
+      subtitle: 'Make sure you have the right tool for the right job.',
       content: [
-        'If you just want to look at a CoNLL file quickly, check out this:',
+        'If you want to inspect a CoNLL file quickly, check this out:',
         'No login!',
-        'Fast CoNLL files viewer',
+        'Fast CoNLL file viewer',
         'For quick graphical modification of a CoNLL file:',
-        'CoNLL files graphical editor',
-        'The legacy Arborator is still running here'
+        'CoNLL file graphical editor',
+        'The legacy Arborator is still running here.'
       ]
     }
   },
@@ -103,7 +103,7 @@ export default {
     tooltipViewAdmin: 'View administrator information',
     nodata: [
       'Oops! No data to display...',
-      'No sample yet. This project is empty, please upload some conll files.',
+      'No sample yet. This project is empty, please upload some CoNLL files.',
       'Ask an administrator to add files'
     ],
     tooltipAddSample: 'Add CoNLL files as new samples',
