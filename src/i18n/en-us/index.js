@@ -1,6 +1,6 @@
 export default {
   failed: 'Action failed',
-  success: 'Action was successful',
+  success: 'Action successful',
   oops: 'Something went wrong: ',
   error403: 'Hey you! You do not have the permissions for this action. Please contact the administrator.',
   error401: 'Hey you! Please log in to do any further actions of that type.',
